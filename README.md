@@ -42,22 +42,22 @@ understanding of advanced JavaScript techniques and the jQuery library.
 
 <h3>Syllabus</h3>
 
-**Fundamentals of Web Development**
+<b>Fundamentals of Web Development</b>
 
-**Instructor**
+<b>Instructor</b>
 
 Daniel Krieglstein, Adjunct Instructor, Illinois Institute of Technology
 
 <a href="https://www.iit.edu/directory/people/daniel-krieglstein" target="_blank" rel="noopener noreferrer">
 Daniel, Krieglstein&#124; Illinois Institute of Technology (iit.edu)</a>
 
-**Course Description**
+<b>Course Description</b>
 
 This course covers the creation of Web pages and sites using HTML, CSS,
 Javascript, jQuery, and graphical applications as well as the client and
 server architecture of the Internet and related web technologies.
 
-**Course Outcomes**
+<b>Course Outcomes</b>
 
 Upon successful completion of this course, you will be able to:
 
@@ -84,7 +84,7 @@ Upon successful completion of this course, you will be able to:
 -   Write useful, descriptive messages attached to granular commits in a
     version control.
 
-**Course Materials**
+<b>Course Materials</b>
 
 The link to reading materials and resources to learn on the topics can
 be found in each week's learning module. All materials are available
@@ -92,7 +92,7 @@ online for free, no required resources need to be purchased. There is no
 required textbook to supplement the course materials. Note: Be aware
 that some resources may open in a new tab.
 
-**Software Requirements:**
+<b>Software Requirements:</b>
 
 -   An email account. 
 
@@ -111,13 +111,13 @@ that some resources may open in a new tab.
 -   At least three different browsers (e.g., Chrome, Opera, Firefox,
     and/or Edge)
 
-**Course Outline**
+<b>Course Outline</b>
 
 The course consists of 8 modules that focus on the following key areas:
 
 <h2>Module 1: Internet Structures and an Introduction to HTML</h2>
 
-**Key concepts**
+<b>Key concepts</b>
 
 -   History of the Web
 
@@ -133,22 +133,17 @@ The course consists of 8 modules that focus on the following key areas:
 
 <h4>Readings</h4>
 
--   [First out-of-order
-    operations](https://www.ibm.com/ibm/history/exhibits/mainframe/mainframe_PP2091.html)
-
--  [First Dial-up
-Network](https://www.righto.com/2019/04/iconic-consoles-of-ibm-system360.html)
-
--  [Proposal for Email](https://datatracker.ietf.org/doc/html/rfc561)
-
--  [First ever Website](https://info.cern.ch/)
-
--  [How Browsers Work](https://web.dev/articles/howbrowserswork)
-
+<ul>
+  <li><a href="https://www.ibm.com/ibm/history/exhibits/mainframe/mainframe_PP2091.html">First out-of-order operations</a></li>
+  <li><a href="https://www.righto.com/2019/04/iconic-consoles-of-ibm-system360.html">First Dial-up Network</a></li>
+  <li><a href="https://datatracker.ietf.org/doc/html/rfc561">Proposal for Email</a></li>
+  <li><a href="https://info.cern.ch/">First ever Website</a></li>
+  <li><a href="https://web.dev/articles/howbrowserswork">How Browsers Work</a></li>
+</ul>
 
 <h2>Module 2: HTML</h2>
 
-**Key concepts**
+<b>Key concepts</b>
 
 -   HTML Elements (Inline vs. Box), and HTML Lists
 
@@ -160,7 +155,7 @@ Network](https://www.righto.com/2019/04/iconic-consoles-of-ibm-system360.html)
 
 <h2>Module 3: HTML Forms</h2>
 
-**Key concepts**
+<b>Key concepts</b>
 
 -   Website Navigation (Simple HTML)
 
@@ -170,7 +165,7 @@ Network](https://www.righto.com/2019/04/iconic-consoles-of-ibm-system360.html)
 
 <h2>Module 4: Introduction to CSS</h2>
 
-**Key concepts**
+<b>Key concepts</b>
 
 -   How CSS Talks to HTML
 
@@ -184,7 +179,7 @@ Network](https://www.righto.com/2019/04/iconic-consoles-of-ibm-system360.html)
 
 <h2>Module 5: CSS Floats and Positions</h2>
 
-**Key concepts**
+<b>Key concepts</b>
 
 -   CSS Fonts
 
@@ -198,7 +193,7 @@ Network](https://www.righto.com/2019/04/iconic-consoles-of-ibm-system360.html)
 
 <h2>Module 6: Website Layouts and Design</h2>
 
-**Key concepts**
+<b>Key concepts</b>
 
 -   Standard Website Layouts
 
@@ -212,7 +207,7 @@ Network](https://www.righto.com/2019/04/iconic-consoles-of-ibm-system360.html)
 
 <h2>Module 7: Introduction to Javascript</h2>
 
-**Key concepts**
+<b>Key concepts</b>
 
 -   The Basics of JavaScript (JS)
 
@@ -225,7 +220,7 @@ Network](https://www.righto.com/2019/04/iconic-consoles-of-ibm-system360.html)
 
 <h2>Module 8: JQuery and Frameworks</h2>
 
-**Key concepts**
+<b>Key concepts</b>
 
 -   How-To: JavaScript Grab Objects and Change HTML
 
@@ -328,7 +323,7 @@ function positionMessage() {
 }
 </pre>
 
-Calling the **positionMessage** function when the page loads will
+Calling the <b>positionMessage</b> function when the page loads will
 position the paragraph 50 pixels from the left and 100 pixels from the
 top of the browser window:
 
@@ -336,7 +331,7 @@ top of the browser window:
 window.onload = positionMessage;
 </pre>
 
-Better yet, use the **addLoadEvent** function:
+Better yet, use the <b>addLoadEvent</b> function:
 
 <pre>
 function addLoadEvent(func) {
@@ -369,10 +364,10 @@ function moveMessage() {
 }
 </pre>
 
-But how do you activate that function? If you execute **moveMessage**
+But how do you activate that function? If you execute <b>moveMessage</b>
 when the page loads, the element's position will be updated
 instantaneously. The original positioning, as specified by
-**positionMessage**, will be overridden instantly:
+<b>positionMessage</b>, will be overridden instantly:
 
 <pre>
 addLoadEvent(positionMessage);
@@ -394,7 +389,7 @@ look at next.
 
 Time
 
-The JavaScript function **setTimeout** allows you to execute a function
+The JavaScript function <b>setTimeout</b> allows you to execute a function
 after a specified amount of time has elapsed. It takes two arguments.
 The first argument is a string containing the function you want to
 execute. The second argument is the number of milliseconds that will
@@ -413,14 +408,14 @@ variable = setTimeout(&quot;function&quot;,interval)
 
 You'll need to do this if you want to cancel the action that has been
 queued up. You can cancel a pending action using a function called
-**clearTimeout**. This function takes one argument, which is a variable
-that has been assigned to the result of a **setTimeout** function:
+<b>clearTimeout</b>. This function takes one argument, which is a variable
+that has been assigned to the result of a <b>setTimeout</b> function:
 
 <pre>
 clearTimeout(variable)
 </pre>
 
-Let's update the **positionMessage** function so that it calls
+Let's update the <b>positionMessage</b> function so that it calls
 moveMessage after 5 seconds (5,000 milliseconds):
 
 <pre>
@@ -435,7 +430,7 @@ function positionMessage() {
 }
 </pre>
 
-The **positionMessage** function is called when the page loads:
+The <b>positionMessage</b> function is called when the page loads:
 
 <pre>
 addLoadEvent(positionMessage);
@@ -451,10 +446,10 @@ elapse, you could do so with this statement:
 clearTimeout(movement);
 </pre>
 
-The movement variable refers to the **setTimeout** function defined in
-**positionMessage**. It's a global variable; it wasn't declared with the
+The movement variable refers to the <b>setTimeout</b> function defined in
+<b>positionMessage</b>. It's a global variable; it wasn't declared with the
 var keyword. This means the action can be canceled outside the
-**positionMessage** function.
+<b>positionMessage</b> function.
 
 Incremental movement
 
@@ -463,7 +458,7 @@ sort of animation, albeit a very primitive one. Effective animation uses
 incremental movement. Moving from the starting position to the final
 location should happen in a series of steps rather than one quick jump.
 
-Let's update the **moveMessage** function so that movement occurs
+Let's update the <b>moveMessage</b> function so that movement occurs
 incrementally. Here's the logic behind the new function:
 
 1.  Get the element's current position.
@@ -477,22 +472,22 @@ incrementally. Here's the logic behind the new function:
 
 The first step is getting the element's current position. We can do this
 by querying properties of the element's style property. We want to find
-the left and top properties. We'll assign them to the variables **xpos**
-and **ypos**, respectively:
+the left and top properties. We'll assign them to the variables <b>xpos</b>
+and <b>ypos</b>, respectively:
 
 <pre>
 var xpos = elem.style.left;
 var ypos = elem.style.top;
 </pre>
 
-When the **moveMessage** function is called after the
-**positionMessage** function, **xpos** will have a value of &quot;50px&quot;.
-The **ypos** variable will have a value of &quot;100px&quot;. These values are
+When the <b>moveMessage</b> function is called after the
+<b>positionMessage</b> function, <b>xpos</b> will have a value of &quot;50px&quot;.
+The <b>ypos</b> variable will have a value of &quot;100px&quot;. These values are
 strings, which presents a bit of a problem. The next step in the
 function involves arithmetical comparison operators. We need to work
 with numbers, not strings.
 
-The JavaScript function **parseInt** can extract numeric information
+The JavaScript function <b>parseInt</b> can extract numeric information
 from a string. If you pass it a string that begins with a number, it
 will return the number:
 
@@ -508,35 +503,35 @@ parseInt(&quot;39 steps&quot;);
 
 That will return the number 39.
 
-The **parseInt** function will return whole numbers (integers). If you
+The <b>parseInt</b> function will return whole numbers (integers). If you
 need to extract numbers with decimal places (floating-point numbers),
-there is a corresponding **parseFloat** function:
+there is a corresponding <b>parseFloat</b> function:
 
 <pre>
 parseFloat(string)
 </pre>
 
-We're dealing with integers in the **moveMessage** function, so we'll
-use **parseInt**:
+We're dealing with integers in the <b>moveMessage</b> function, so we'll
+use <b>parseInt</b>:
 
 <pre>
 var xpos = parseInt(elem.style.left);
 var ypos = parseInt(elem.style.top);
 </pre>
 
-The **parseInt** function converts the string &quot;50px&quot; to the number 50.
-The string &quot;100px&quot; becomes the number 100. Now the **xpos** and
-**ypos** variables contain those numbers.
+The <b>parseInt</b> function converts the string &quot;50px&quot; to the number 50.
+The string &quot;100px&quot; becomes the number 100. Now the <b>xpos</b> and
+<b>ypos</b> variables contain those numbers.
 
-■ Note The use of the **parseInt** function shown here works only when
+■ Note The use of the <b>parseInt</b> function shown here works only when
 the elements have been assigned a position using a DOM script or the
 style property.
 
-The next few steps in the **moveMessage** function require the use of a
+The next few steps in the <b>moveMessage</b> function require the use of a
 lot of comparison operators.
 
 The first comparison is a test for equality. We want to find out if
-**xpos** is equal to the final left position and if **ypos** is equal to
+<b>xpos</b> is equal to the final left position and if <b>ypos</b> is equal to
 the final top position. If they are, we'll exit the function. We can do
 this test by using the comparison operator, which consists of two equal
 signs (remember that a single equal sign is used for assignment)
@@ -550,9 +545,9 @@ if (xpos == 200 && ypos == 100) {
 Everything after this line will be executed only if the message element
 has not reached its final position.
 
-Next, we'll update the **xpos** and **ypos** numbers based on their
+Next, we'll update the <b>xpos</b> and <b>ypos</b> numbers based on their
 relationship to the final position. We want to bring them both closer to
-the final coordinates. If the value of **xpos** is less than the final
+the final coordinates. If the value of <b>xpos</b> is less than the final
 left position, increase it by one:
 
 <pre>
@@ -569,7 +564,7 @@ if (xpos &gt; 200) {
 }
 </pre>
 
-The same applies for the relationship between the **ypos** variable and
+The same applies for the relationship between the <b>ypos</b> variable and
 the final top position:
 
 <pre>
@@ -581,11 +576,11 @@ if (ypos &gt; 100) {
 }
 </pre>
 
-You can see why we need **xpos** and **ypos** to be numbers rather than
+You can see why we need <b>xpos</b> and <b>ypos</b> to be numbers rather than
 strings. We're using the less-than and greater-than operators to compare
 numerical values and update the variables accordingly.
 
-Now we want to apply the **xpos** and **ypos** variables to the style
+Now we want to apply the <b>xpos</b> and <b>ypos</b> variables to the style
 property of the element. We do this by adding the string &quot;px&quot; to their
 values and applying them to the left and top properties:
 
@@ -640,7 +635,7 @@ more useful later in this chapter.
 
 Abstraction
 
-As it stands, the **moveMessage** function accomplishes a very specific
+As it stands, the <b>moveMessage</b> function accomplishes a very specific
 task. It moves a specific element to a specific place, pausing for a
 specific amount of time between movements. All of that information is
 hard-coded into the function:
@@ -675,12 +670,12 @@ function moveMessage() {
 </pre>
 
 If all of those things were variables, the function would be a lot more
-flexible. By abstracting the **moveMessage** function, you can create
+flexible. By abstracting the <b>moveMessage</b> function, you can create
 something more portable and reusable.
 
 Creating the moveElement function
 
-Call your new function moveElement. Unlike **moveMessage**, this
+Call your new function moveElement. Unlike <b>moveMessage</b>, this
 function will take a number of arguments.
 
 These are the things that you can vary each time you call the function:
@@ -695,22 +690,22 @@ These are the things that you can vary each time you call the function:
 
 These arguments should all have descriptive names:
 
-1.  **elementID**
+1.  <b>elementID</b>
 
-2.  **final_x**
+2.  <b>final_x</b>
 
-3.  **final_y**
+3.  <b>final_y</b>
 
-4.  **interval**
+4.  <b>interval</b>
 
-Begin the **moveElement** function with these arguments:
+Begin the <b>moveElement</b> function with these arguments:
 
 <pre>
 function moveElement(elementID,final_x,final_y,interval) {
 </pre>
 
 Substitute these for the values that were previously hard-coded into
-**moveMessage**. The **moveMessage** function began with these lines:
+<b>moveMessage</b>. The <b>moveMessage</b> function began with these lines:
 
 <pre>
 if (!document.getElementById) return false;
@@ -718,8 +713,8 @@ if (!document.getElementById(&quot;message&quot;)) return false;
 var elem = document.getElementById(&quot;message&quot;);
 </pre>
 
-Replace all the instances of **getElementById(&quot;message&quot;)** with
-**getElementById(elementID):**
+Replace all the instances of <b>getElementById(&quot;message&quot;)</b> with
+<b>getElementById(elementID):</b>
 
 <pre>
 if (!document.getElementById) return false;
@@ -727,11 +722,11 @@ if (!document.getElementById(elementID)) return false;
 var elem = document.getElementById(elementID);
 </pre>
 
-The variable **elem** now refers to whichever element you want to move.
+The variable <b>elem</b> now refers to whichever element you want to move.
 
 The next step of the function remains the same. The left and top
 properties of the element are converted to numbers and assigned to the
-variables **xpos** and **ypos**, respectively:
+variables <b>xpos</b> and <b>ypos</b>, respectively:
 
 <pre>
 var xpos = parseInt(elem.style.left);
@@ -739,7 +734,7 @@ var ypos = parseInt(elem.style.top);
 </pre>
 
 Next, check to see if the element has reached its final position. In
-**moveMessage**, these coordinates were the values 200 (for the left
+<b>moveMessage</b>, these coordinates were the values 200 (for the left
 position) and 100 (for the top position):
 
 <pre>
@@ -748,8 +743,8 @@ if (xpos == 200 && ypos == 100) {
 }
 </pre>
 
-In **moveElement**, these coordinates are provided by the arguments
-**final_x** and **final_y**:
+In <b>moveElement</b>, these coordinates are provided by the arguments
+<b>final_x</b> and <b>final_y</b>:
 
 <pre>
 if (xpos == final_x && ypos == final_y) {
@@ -757,7 +752,7 @@ if (xpos == final_x && ypos == final_y) {
 }
 </pre>
 
-Update the values of the **xpos** and **ypos** variables. If **xpos** is
+Update the values of the <b>xpos</b> and <b>ypos</b> variables. If <b>xpos</b> is
 less than the final left position, increase its value by one.
 
 The final left position used to be hard-coded as 200:
@@ -768,7 +763,7 @@ if (xpos &lt; 200) {
 }
 </pre>
 
-Now the final left position is contained in the **final_x** argument:
+Now the final left position is contained in the <b>final_x</b> argument:
 
 <pre>
 if (xpos &lt; final_x) {
@@ -776,8 +771,8 @@ if (xpos &lt; final_x) {
 }
 </pre>
 
-Likewise, if the value of **xpos** is greater than the final left
-position, decrease the value of **xpos** by one:
+Likewise, if the value of <b>xpos</b> is greater than the final left
+position, decrease the value of <b>xpos</b> by one:
 
 <pre>
 if (xpos &gt; final_x) {
@@ -785,8 +780,8 @@ if (xpos &gt; final_x) {
 }
 </pre>
 
-Do the same for **ypos**. If its value is less than **final_y**,
-increase it by one. If it is greater than **final_y**, decrease it by
+Do the same for <b>ypos</b>. If its value is less than <b>final_y</b>,
+increase it by one. If it is greater than <b>final_y</b>, decrease it by
 one:
 
 <pre>
@@ -799,9 +794,9 @@ if (ypos &gt; final_y) {
 </pre>
 
 The next step remains the same. Update the left and top style properties
-of the element **elem**.
+of the element <b>elem</b>.
 
-Assign the values of **xpos** and **ypos** with the string &quot;px&quot;
+Assign the values of <b>xpos</b> and <b>ypos</b> with the string &quot;px&quot;
 attached:
 
 <pre>
@@ -810,16 +805,16 @@ elem.style.top = ypos + &quot;px&quot;;
 </pre>
 
 Finally, we want to call the function again after a suitable interval.
-In **moveMessage**, this was quite straightforward. The **moveMessage**
+In <b>moveMessage</b>, this was quite straightforward. The <b>moveMessage</b>
 function is called after ten milliseconds:
 
 <pre>
 movement = setTimeout(&quot;moveMessage()&quot;,10);
 </pre>
 
-In **moveElement**, it gets a little trickier. As well as calling the
-function again, we need to pass it the same arguments: **elementID**,
-**final_x**, **final_y**, and **interval**. The whole thing needs to be
+In <b>moveElement</b>, it gets a little trickier. As well as calling the
+function again, we need to pass it the same arguments: <b>elementID</b>,
+<b>final_x</b>, <b>final_y</b>, and <b>interval</b>. The whole thing needs to be
 contained as a string:
 
 <pre>
@@ -827,16 +822,16 @@ contained as a string:
 </pre>
 
 That's a lot of concatenating! Rather than inserting that long string
-directly into the **setTimeout** function, assign the string to a
-variable called **repeat**:
+directly into the <b>setTimeout</b> function, assign the string to a
+variable called <b>repeat</b>:
 
 <pre>
 var repeat =
 &quot;moveElement(&#39;&quot;+elementID+&quot;&#39;,&quot;+final_x+&quot;,&quot;+final_y+&quot;,&quot;+interval+&quot;)&quot;;
 </pre>
 
-Now we can simply insert **repeat** as the first argument of the
-**setTimeout** function. The second argument is the length of the pause
+Now we can simply insert <b>repeat</b> as the first argument of the
+<b>setTimeout</b> function. The second argument is the length of the pause
 before the first argument is called. This used to be hard-coded as ten
 milliseconds. Now it's whatever value is contained by the variable
 interval:
@@ -848,7 +843,7 @@ movement = setTimeout(repeat,interval);
 Close the function with a curly brace:
 
 <pre>
-**}**
+<b>}</b>
 </pre>
 
 The finished moveElement function looks like this:
@@ -883,16 +878,16 @@ movement = setTimeout(repeat,interval);
 }
 </pre>
 
-Save the **moveElement** function to a file called **moveElement.js**.
-Place this file in a folder called **scripts**, along with that old
-workhorse, **addLoadEvent.js**.
+Save the <b>moveElement</b> function to a file called <b>moveElement.js</b>.
+Place this file in a folder called <b>scripts</b>, along with that old
+workhorse, <b>addLoadEvent.js</b>.
 
 Using the moveElement function
 
 Let's take this function for a test drive.
 
 Start by re-creating the previous example. Create a document called
-**message.html**, which contains a paragraph identified as &quot;message&quot;:
+<b>message.html</b>, which contains a paragraph identified as &quot;message&quot;:
 
 <pre>
 &lt;!DOCTYPE html&gt;
@@ -908,8 +903,8 @@ Start by re-creating the previous example. Create a document called
 </pre>
 
 Before we can animate the message, we need to position it. Write another
-JavaScript file called **positionMessage.js**. At the end of the
-**positionMessage** function, call the **moveElement** function:
+JavaScript file called <b>positionMessage.js</b>. At the end of the
+<b>positionMessage</b> function, call the <b>moveElement</b> function:
 
 <pre>
 function positionMessage() {
@@ -924,13 +919,13 @@ moveElement(&quot;message&quot;,200,100,10);
 addLoadEvent(positionMessage);
 </pre>
 
-We are passing the string &quot;message&quot; as the value of the **elementID**
-argument. The **final_x** argument is 200. The **final_y** argument is
-100. The value of **interval** is 10.
+We are passing the string &quot;message&quot; as the value of the <b>elementID</b>
+argument. The <b>final_x</b> argument is 200. The <b>final_y</b> argument is
+100. The value of <b>interval</b> is 10.
 
-Now you have three files in your scripts folder: **addLoadEvent.js**,
-**positionMessage.js**, and **moveElement.js**. Reference those files
-from **message.html** using **&lt;script&gt;** tags:
+Now you have three files in your scripts folder: <b>addLoadEvent.js</b>,
+<b>positionMessage.js</b>, and <b>moveElement.js</b>. Reference those files
+from <b>message.html</b> using <b>&lt;script&gt;</b> tags:
 
 <pre>
 &lt;!DOCTYPE html&gt;
@@ -948,16 +943,16 @@ from **message.html** using **&lt;script&gt;** tags:
 &lt;/html&gt;
 </pre>
 
-Load **message.html** in a web browser to see the animation in action.
+Load <b>message.html</b> in a web browser to see the animation in action.
 The element moves horizontally across the screen.
 
 ![](./myImages/media/image3.png){width="4.0in"
 height="2.164656605424322in"}
 
-So far, so good. The **moveElement** function is working exactly like
-the **moveMessage** function. You abstracted the function so that you
+So far, so good. The <b>moveElement</b> function is working exactly like
+the <b>moveMessage</b> function. You abstracted the function so that you
 could send it any arguments you like. By altering the values of
-**final_x** and **final_y**, you can change the direction of the
+<b>final_x</b> and <b>final_y</b>, you can change the direction of the
 animation. Altering the value of interval changes the speed of the
 animation:
 
@@ -965,8 +960,8 @@ animation:
 function moveElement(elementID,final_x,final_y,interval)
 </pre>
 
-Update the last line of the **positionMessage** function in
-**positionMessage.js** so that these three values are changed
+Update the last line of the <b>positionMessage</b> function in
+<b>positionMessage.js</b> so that these three values are changed
 
 <pre>
 function positionMessage() {
@@ -981,20 +976,20 @@ moveElement(&quot;message&quot;,125,25,20);
 addLoadEvent(positionMessage);
 </pre>
 
-Refresh **message.html** in a web browser to see the change. The element
+Refresh <b>message.html</b> in a web browser to see the change. The element
 now moves diagonally and more slowly.
 
 ![](./myImages/media/image4.png){width="4.0in"
 height="2.8571423884514435in"}
 
-The other argument that you can change in **moveElement** is the value
-of **elementID**:
+The other argument that you can change in <b>moveElement</b> is the value
+of <b>elementID</b>:
 
 <pre>
 function moveElement(elementID,final_x,final_y,interval)
 </pre>
 
-Add a new element to **message.html**. Give it an id attribute of
+Add a new element to <b>message.html</b>. Give it an id attribute of
 &quot;message2&quot;:
 
 <pre>
@@ -1014,8 +1009,8 @@ Add a new element to **message.html**. Give it an id attribute of
 &lt;/html&gt;
 </pre>
 
-Now update **positionMessage.js**. Set the initial position of
-&quot;message2&quot; and call the **moveElement** function again, this time
+Now update <b>positionMessage.js</b>. Set the initial position of
+&quot;message2&quot; and call the <b>moveElement</b> function again, this time
 passing it &quot;message2&quot; as the first argument:
 
 <pre>
@@ -1037,13 +1032,13 @@ function positionMessage() {
 addLoadEvent(positionMessage);
 </pre>
 
-Reload **message.html** to see the new animation. Both elements move in
+Reload <b>message.html</b> to see the new animation. Both elements move in
 different directions at the same time.
 
 ![](./myImages/media/image5.png){width="4.0in"
 height="2.8571423884514435in"}
 
-The **moveElement** function is doing all the work in both cases. By
+The <b>moveElement</b> function is doing all the work in both cases. By
 simply changing the arguments that you send to the function, you can
 reuse it as often as you like. This is the great advantage of using
 arguments instead of hard-coding values.
@@ -1054,7 +1049,7 @@ We have a web page that contains a list of links. When the user hovers
 over one of these links, we want to provide some kind of sneak preview
 of where the link will lead---we would like to show an image.
 
-The document is called **list.html**. Here's the markup:
+The document is called <b>list.html</b>. Here's the markup:
 
 <pre>
 &lt;!DOCTYPE html&gt;
@@ -1181,7 +1176,7 @@ purposes. We want to display just a 100-by-100 pixel portion of an image
 that is 400-by-100 pixels in size.
 
 First, let's wrap the image in a container element. We'll put it in a
-**div** element with an id of **&quot;slideshow&quot;:**
+<b>div</b> element with an id of <b>&quot;slideshow&quot;:</b>
 
 <pre>
 &lt;div id=&quot;slideshow&quot;&gt;
@@ -1190,10 +1185,10 @@ id=&quot;preview&quot; /&gt;
 &lt;/div&gt;
 </pre>
 
-Now, we'll create a **style** sheet called **layout.css**. Put this file
-in a folder called **styles**.
+Now, we'll create a <b>style</b> sheet called <b>layout.css</b>. Put this file
+in a folder called <b>styles</b>.
 
-In **layout.css**, we can set the size of the **&quot;slideshow&quot; div**:
+In <b>layout.css</b>, we can set the size of the <b>&quot;slideshow&quot; div</b>:
 
 <pre>
 #slideshow {
@@ -1203,13 +1198,13 @@ In **layout.css**, we can set the size of the **&quot;slideshow&quot; div**:
 }
 </pre>
 
-Setting the position to **relative** is important because we want to use
-an **absolute** position for the child image. By using **relative**, the
+Setting the position to <b>relative</b> is important because we want to use
+an <b>absolute</b> position for the child image. By using <b>relative</b>, the
 0,0 position for children elements will be the upper-left corner of the
-slideshow **div**.
+slideshow <b>div</b>.
 
-By applying an overflow value of **&quot;hidden&quot;**, we can ensure that the
-content within the **div** will be clipped:
+By applying an overflow value of <b>&quot;hidden&quot;</b>, we can ensure that the
+content within the <b>div</b> will be clipped:
 
 <pre>
 #slideshow {
@@ -1220,8 +1215,8 @@ content within the **div** will be clipped:
 }
 </pre>
 
-We're attaching the **layout.css** style sheet to **list.html** using a
-**&lt;link&gt;** in the **head** of the document:
+We're attaching the <b>layout.css</b> style sheet to <b>list.html</b> using a
+<b>&lt;link&gt;</b> in the <b>head</b> of the document:
 
 <pre>
 &lt;!DOCTYPE html&gt;
@@ -1248,16 +1243,16 @@ id=&quot;preview&quot; /&gt;
 &lt;/html&gt;
 </pre>
 
-Load **list.html** in a web browser to see the difference. The image has
-been clipped. Now only a portion of **topics.gif**---only the first 100
+Load <b>list.html</b> in a web browser to see the difference. The image has
+been clipped. Now only a portion of <b>topics.gif</b>---only the first 100
 pixels---is visible.
 
 ![](./myImages/media/image9.png){width="4.0in"
 height="3.1860312773403323in"}
 
 The next part of the plan revolves around the actions of the user. We
-want to display a different portion of **topics.gif** in the
-&quot;slideshow&quot; **div** depending on which link the user hovers the mouse
+want to display a different portion of <b>topics.gif</b> in the
+&quot;slideshow&quot; <b>div</b> depending on which link the user hovers the mouse
 over.
 
 This is a behavioral change and definitely a job for JavaScript and the
@@ -1265,14 +1260,14 @@ DOM.
 
 JavaScript
 
-We'll use the **moveElement** function to move the **topics.gif** image
+We'll use the <b>moveElement</b> function to move the <b>topics.gif</b> image
 around. We'll move the image to the left or to the right, depending on
 which link the user is currently hovering over.
 
-We need to attach that behavior (calling the **moveElement** function)
-to the **onmouseover** event of each link in the link list.
+We need to attach that behavior (calling the <b>moveElement</b> function)
+to the <b>onmouseover</b> event of each link in the link list.
 
-Here's a function called **prepareSlideshow**, which does just that:
+Here's a function called <b>prepareSlideshow</b>, which does just that:
 
 <pre>
 function prepareSlideshow() {
@@ -1303,24 +1298,24 @@ function prepareSlideshow() {
 }
 </pre>
 
-First, the **prepareSlideshow** function checks for browser
-compatibility with the **DOM** methods that will be used:
+First, the <b>prepareSlideshow</b> function checks for browser
+compatibility with the <b>DOM</b> methods that will be used:
 
 <pre>
 if (!document.getElementsByTagName) return false;
 if (!document.getElementById) return false;
 </pre>
 
-Next, there's a check to make sure that the **&quot;linklist&quot;** and
-**&quot;preview&quot;** elements exist. Remember that **&quot;preview&quot;** is the
-**id** value of the **topics.gif** image.
+Next, there's a check to make sure that the <b>&quot;linklist&quot;</b> and
+<b>&quot;preview&quot;</b> elements exist. Remember that <b>&quot;preview&quot;</b> is the
+<b>id</b> value of the <b>topics.gif</b> image.
 
 <pre>
 if (!document.getElementById(&quot;linklist&quot;)) return false;
 if (!document.getElementById(&quot;preview&quot;)) return false;
 </pre>
 
-After that, a default position is given to the **&quot;preview&quot;** image.
+After that, a default position is given to the <b>&quot;preview&quot;</b> image.
 We're setting the left property to &quot;0px&quot; and the top property to
 &quot;0px&quot;:
 
@@ -1331,30 +1326,30 @@ preview.style.left = &quot;0px&quot;;
 preview.style.top = &quot;0px&quot;;
 </pre>
 
-This doesn't mean that the **topics.gif** image will appear in the
+This doesn't mean that the <b>topics.gif</b> image will appear in the
 top-left corner of the screen. Instead, it will appear in the top-left
-corner of its container element, the **&quot;slideshow&quot; div**. That's
-because the CSS position value of the **div** is **&quot;relative&quot;**. Any
+corner of its container element, the <b>&quot;slideshow&quot; div</b>. That's
+because the CSS position value of the <b>div</b> is <b>&quot;relative&quot;</b>. Any
 absolutely positioned elements contained by a relatively positioned
 element will be placed in relation to that container element. In other
-words, the **&quot;preview&quot;** image will appear zero pixels to the left and
-zero pixels from the top of the **&quot;slideshow&quot;** element.
+words, the <b>&quot;preview&quot;</b> image will appear zero pixels to the left and
+zero pixels from the top of the <b>&quot;slideshow&quot;</b> element.
 
-Finally, we're attaching the **onmouseover** behaviors to the **links**
-in the **list**. The variable **links** contains a node set of all the
-**a** elements contained within the **&quot;linklist**&quot; element. The first
-link is **links&lbrack;0&rbrack;**, the second link is **links&lbrack;1&rbrack;**, and the third
-link is **links&lbrack;2&rbrack;**.
+Finally, we're attaching the <b>onmouseover</b> behaviors to the <b>links</b>
+in the <b>list</b>. The variable <b>links</b> contains a node set of all the
+<b>a</b> elements contained within the <b>&quot;linklist</b>&quot; element. The first
+link is <b>links&lbrack;0&rbrack;</b>, the second link is <b>links&lbrack;1&rbrack;</b>, and the third
+link is <b>links&lbrack;2&rbrack;</b>.
 
 <pre>
 var list = document.getElementById(&quot;linklist&quot;);
 var links = list.getElementsByTagName(&quot;a&quot;);
 </pre>
 
-When the user hovers over the first **link**, the **moveElement**
-function is called. The **elementID** argument has a value of
-**&quot;preview&quot;**. The **final_x** argument has a value of -100. The
-**final_y** argument has a value of 0. The **interval** argument is ten
+When the user hovers over the first <b>link</b>, the <b>moveElement</b>
+function is called. The <b>elementID</b> argument has a value of
+<b>&quot;preview&quot;</b>. The <b>final_x</b> argument has a value of -100. The
+<b>final_y</b> argument has a value of 0. The <b>interval</b> argument is ten
 milliseconds.
 
 <pre>
@@ -1364,7 +1359,7 @@ moveElement(&quot;preview&quot;,-100,0,10);
 </pre>
 
 The same behavior applies for the second link, except that the
-**final_x** argument is -200:
+<b>final_x</b> argument is -200:
 
 <pre>
 links&lbrack;1&rbrack;.onmouseover = function() {
@@ -1372,7 +1367,7 @@ moveElement(&quot;preview&quot;,-200,0,10);
 }
 </pre>
 
-The third link will move the **&quot;preview&quot;** element -300 pixels to the
+The third link will move the <b>&quot;preview&quot;</b> element -300 pixels to the
 left:
 
 <pre>
@@ -1381,19 +1376,19 @@ links&lbrack;2&rbrack;.onmouseover = function() {
 }
 </pre>
 
-The **prepareSlideshow** function is called using the **addLoadEvent**
+The <b>prepareSlideshow</b> function is called using the <b>addLoadEvent</b>
 function. The behaviors are attached when the page loads.
 
 addLoadEvent(prepareSlideshow);
 
-Save the **prepareSlideshow** function to a file called
-**prepareSlideshow.js** in a folder called **scripts**.
+Save the <b>prepareSlideshow</b> function to a file called
+<b>prepareSlideshow.js</b> in a folder called <b>scripts</b>.
 
-Place the **moveElement.js** and **addLoadEvent.js** files in the same
+Place the <b>moveElement.js</b> and <b>addLoadEvent.js</b> files in the same
 folder.
 
-We can reference all three scripts from **list.html** by adding
-**&lt;script&gt;** tags immediately before the closing **&lt;/body&gt;** tag:
+We can reference all three scripts from <b>list.html</b> by adding
+<b>&lt;script&gt;</b> tags immediately before the closing <b>&lt;/body&gt;</b> tag:
 
 <pre>
 &lt;!DOCTYPE html&gt;
@@ -1423,24 +1418,24 @@ id=&quot;preview&quot; /&gt;
 &lt;/html&gt;
 </pre>
 
-Load **list.html** in a web browser. Hover over one of the links in the
+Load <b>list.html</b> in a web browser. Hover over one of the links in the
 list to see the slideshow in action.
 
 ![](./myImages/media/image10.png){width="4.0in"
 height="3.1860312773403323in"}
 
 Depending on which link in the list you hover over, a different portion
-of the **topics.gif** image will slide into view.
+of the <b>topics.gif</b> image will slide into view.
 
 But something is not quite right. If you move quickly from link to the
 link, the animation becomes confused. There's something wrong with the
-**moveElement** function.
+<b>moveElement</b> function.
 
 A question of scope
 
 The animation problem is being caused by a global variable. When we
-abstracted the **moveMessage** function and turned it into the
-**moveElement** function, we left the variable movement as it was:
+abstracted the <b>moveMessage</b> function and turned it into the
+<b>moveElement</b> function, we left the variable movement as it was:
 
 <pre>
 function moveElement(elementID,final_x,final_y,interval) {
@@ -1472,17 +1467,17 @@ movement = setTimeout(repeat,interval);
 }
 </pre>
 
-This is causing a problem now that the **moveElement** function is being
+This is causing a problem now that the <b>moveElement</b> function is being
 called whenever the user hovers over a link. Regardless of whether or
 not the previous call to the function has finished moving the image, the
 function is being asked to move the same element somewhere else. In
-other words, the **moveElement** function is attempting to move the same
+other words, the <b>moveElement</b> function is attempting to move the same
 element to two different places at once, and the movement variable has
 become the rope in a tug of war.
 
 As the user quickly moves from link to link, there is a backlog of
-events building up in the **setTimeout** queue. We can flush out this
-backlog by using **clearTimeout**:
+events building up in the <b>setTimeout</b> queue. We can flush out this
+backlog by using <b>clearTimeout</b>:
 
 <pre>
 clearTimeout(movement);
@@ -1495,7 +1490,7 @@ get an error. We can't use a local variable:
 var movement = setTimeout(repeat,interval);
 </pre>
 
-If we do that, the **clearTimeout** statement won't work; the movement
+If we do that, the <b>clearTimeout</b> statement won't work; the movement
 variable will no longer exist. We can't use a global variable.
 
 We can't use a local variable. We need something in between. We need a
@@ -1505,15 +1500,15 @@ Element-specific variables do exist. In fact, we've been using them all
 the time. What I've just described is a property.
 
 Until now, we've used properties provided by the DOM:
-**element.firstChild**, **element.style**, and so on. You can also
+<b>element.firstChild</b>, <b>element.style</b>, and so on. You can also
 assign your own properties:
 
 <pre>
 element.property = value
 </pre>
 
-If you wanted, you could create a property called **foo** with a value
-of **&quot;bar&quot;:**
+If you wanted, you could create a property called <b>foo</b> with a value
+of <b>&quot;bar&quot;:</b>
 
 <pre>
 element.foo = &quot;bar&quot;;
@@ -1523,10 +1518,10 @@ It's just like creating a variable. The difference is that the variable
 belongs just to that element.
 
 Let's change movement from being a global variable to a property of the
-element being moved, **elem**.
+element being moved, <b>elem</b>.
 
 That way, we can test for its existence and, if it exists, use
-**clearTimeout**.
+<b>clearTimeout</b>.
 
 <pre>
 function moveElement(elementID,final_x,final_y,interval) {
@@ -1561,26 +1556,26 @@ elem.movement = setTimeout(repeat,interval);
 }
 </pre>
 
-Whichever element is currently being moved by the **moveElement**
-function is assigned a property called **movement**. If the element
+Whichever element is currently being moved by the <b>moveElement</b>
+function is assigned a property called <b>movement</b>. If the element
 already has this property at the start of the function, it is reset
-using **clearTimeout**. This means that even if the same element is
+using <b>clearTimeout</b>. This means that even if the same element is
 being told to move in different directions, there is only ever one
-**setTimeout** statement.
+<b>setTimeout</b> statement.
 
-Reload **list.html.** Moving quickly from link to link no longer creates
+Reload <b>list.html.</b> Moving quickly from link to link no longer creates
 a problem. There is no backlog of events being queued up. The animation
 changes direction as you move up and down the list of links. Still, the
 animation is a bit lackluster.
 
 Refining the animation
 
-The **moveElement** function moves an element one pixel at a time until
-it reaches the coordinates specified by the **final_x** and **final_y**
+The <b>moveElement</b> function moves an element one pixel at a time until
+it reaches the coordinates specified by the <b>final_x</b> and <b>final_y</b>
 arguments. The movement is smooth, but it's also kind of boring. Let's
 spice up the animation a bit.
 
-Take a look at this simple bit of code in **moveElement.js**:
+Take a look at this simple bit of code in <b>moveElement.js</b>:
 
 <pre>
 if (xpos &lt; final_x) {
@@ -1588,10 +1583,10 @@ xpos++;
 }
 </pre>
 
-The variable **xpos** is the element's current left position. The
-variable **final_x** is the element's final left position. This piece of
-code states, "If the variable **xpos** is less than the variable
-**final_x**, increase the value of **xpos** by one." No matter how far
+The variable <b>xpos</b> is the element's current left position. The
+variable <b>final_x</b> is the element's final left position. This piece of
+code states, "If the variable <b>xpos</b> is less than the variable
+<b>final_x</b>, increase the value of <b>xpos</b> by one." No matter how far
 away the element is from its final position, it will always move toward
 it one pixel at a time. To add some interest, we'll change that.
 
@@ -1600,9 +1595,9 @@ large distance. If the element is near to its final position, we want it
 to move a short distance.
 
 First, we need to figure out how far the element is from its final
-destination. If xpos is less than **final_x**, we want to know by how
-much. We can find out by subtracting **xpos**, the current left
-position, from **final_x**, the desired left position:
+destination. If xpos is less than <b>final_x</b>, we want to know by how
+much. We can find out by subtracting <b>xpos</b>, the current left
+position, from <b>final_x</b>, the desired left position:
 
 <pre>
 dist = final_x - xpos;
@@ -1620,37 +1615,37 @@ This will move the element one-tenth of the distance it needs to go.
 I've chosen one-tenth as a nice round fraction. You can try other values
 if you like,
 
-If **xpos** is 500 pixels away from **final_x**, the variable **dist**
-will have a value of 50. The value of **xpos** is increased by 50. If
-**xpos** is 100 pixels less than **final_x**, **xpos** is increased by
+If <b>xpos</b> is 500 pixels away from <b>final_x</b>, the variable <b>dist</b>
+will have a value of 50. The value of <b>xpos</b> is increased by 50. If
+<b>xpos</b> is 100 pixels less than <b>final_x</b>, <b>xpos</b> is increased by
 ten.
 
-A problem occurs when the distance between **xpos** and **final_x** is
+A problem occurs when the distance between <b>xpos</b> and <b>final_x</b> is
 less than ten. When that value is divided by ten, the result will be
 less than one. You can't move an element by less than one pixel.
 
-Using the **ceil** property of the **Math** object, you can **round** up
-the value of the variable dist. The **ceil** property has the following
+Using the <b>ceil</b> property of the <b>Math</b> object, you can <b>round</b> up
+the value of the variable dist. The <b>ceil</b> property has the following
 syntax:
 
 Math.ceil(number)
 
-This will **round** up any floating-point number to the nearest integer.
-There is a corresponding **floor** property that will **round** any
-floating-point number down to the nearest integer. The **round**
+This will <b>round</b> up any floating-point number to the nearest integer.
+There is a corresponding <b>floor</b> property that will <b>round</b> any
+floating-point number down to the nearest integer. The <b>round</b>
 property will round any floating-point number to whichever whole number
 is closest:
 
 <pre>
 Math.floor(number)
 Math.round(number)
-For the **moveElement** function, we'll round upward. If we used floor
+For the <b>moveElement</b> function, we'll round upward. If we used floor
 or round, the element might never reach its final destination.
 dist = Match.ceil((final_x - xpos)/10);
 xpos = xpos + dist;
 </pre>
 
-This covers the situation when **xpos** is less than **final_x**:
+This covers the situation when <b>xpos</b> is less than <b>final_x</b>:
 
 <pre>
 if (xpos &lt; final_x) {
@@ -1659,12 +1654,12 @@ xpos = xpos + dist;
 }
 </pre>
 
-If **xpos** is greater than **final_x**, then the distance to travel is
-calculated by subtracting **final_x** from **xpos**. This value is
+If <b>xpos</b> is greater than <b>final_x</b>, then the distance to travel is
+calculated by subtracting <b>final_x</b> from <b>xpos</b>. This value is
 divided by ten and rounded up to the nearest whole number to give the
-variable **dist**.
+variable <b>dist</b>.
 
-This is then subtracted from **xpos** to bring the element closer to its
+This is then subtracted from <b>xpos</b> to bring the element closer to its
 final destination.
 
 <pre>
@@ -1674,7 +1669,7 @@ xpos = xpos - dist;
 }
 </pre>
 
-The same logic applies for **ypos** and **final_y:**
+The same logic applies for <b>ypos</b> and <b>final_y:</b>
 
 if (ypos &lt; final_y) {
 dist = Math.ceil((final_y - ypos)/10);
@@ -1686,8 +1681,8 @@ ypos = ypos - dist;
 }
 </pre>
 
-For good measure, don't forget to declare the **dist** variable
-alongside **xpos** and **ypos**:
+For good measure, don't forget to declare the <b>dist</b> variable
+alongside <b>xpos</b> and <b>ypos</b>:
 
 <pre>
 var xpos = parseInt(elem.style.left);
@@ -1695,7 +1690,7 @@ var ypos = parseInt(elem.style.top);
 var dist = 0;
 </pre>
 
-The updated **moveElement** function looks like this:
+The updated <b>moveElement</b> function looks like this:
 
 <pre>
 function moveElement(elementID,final_x,final_y,interval) {
@@ -1735,7 +1730,7 @@ elem.movement = setTimeout(repeat,interval);
 }
 </pre>
 
-Save these changes to **moveElement.js**. Reload **list.html** to see
+Save these changes to <b>moveElement.js</b>. Reload <b>list.html</b> to see
 the difference.
 
 ![](./myImages/media/image11.png){width="4.0in"
@@ -1743,7 +1738,7 @@ height="3.1889949693788275in"}
 
 The animation now feels much smoother and snappier. When you first hover
 over a link, the image jumps quite a distance. As the image approaches
-its final destination, it **"eases"** into place.
+its final destination, it <b>"eases"</b> into place.
 
 The markup, the CSS, and the JavaScript all come together to create this
 slideshow effect. Everything is working fine, but there's always room
@@ -1751,7 +1746,7 @@ for some small tweaks.
 
 Adding a safety check
 
-The **moveElement** function is working really well now. There's just
+The <b>moveElement</b> function is working really well now. There's just
 one thing that bothers me. There is an assumption being made near the
 start of the function:
 
@@ -1777,7 +1772,7 @@ If JavaScript can't read those properties, then the function stops
 without throwing up an error message.
 
 Another solution is to apply default left and top properties in the
-**moveElement** function. If either property hasn't been set, we can
+<b>moveElement</b> function. If either property hasn't been set, we can
 give them a default value of &quot;0px&quot;:
 
 <pre>
@@ -1789,7 +1784,7 @@ elem.style.top = &quot;0px&quot;;
 }
 </pre>
 
-The **moveElement** function now looks like this:
+The <b>moveElement</b> function now looks like this:
 
 <pre>
 function moveElement(elementID,final_x,final_y,interval) {
@@ -1836,19 +1831,19 @@ elem.movement = setTimeout(repeat,interval);
 </pre>
 
 With that safety check in place, we no longer need to explicitly set the
-position of the **&quot;preview&quot;** element. Right now, we're doing that in
-the **prepareSlideshow** function. Remove these lines:
+position of the <b>&quot;preview&quot;</b> element. Right now, we're doing that in
+the <b>prepareSlideshow</b> function. Remove these lines:
 
 <pre>
 preview.style.left = &quot;0px&quot;;
 preview.style.top = &quot;0px&quot;;
 </pre>
 
-While we're at it, let's overhaul the **prepareSlideshow** function.
+While we're at it, let's overhaul the <b>prepareSlideshow</b> function.
 
 Generating markup
 
-The **list.html** document contains some markup that exists just for the
+The <b>list.html</b> document contains some markup that exists just for the
 JavaScript slideshow:
 
 <pre>
@@ -1859,10 +1854,10 @@ id=&quot;preview&quot; /&gt;
 </pre>
 
 If the user doesn't have JavaScript enabled, this content is somewhat
-superfluous. The **div** and the **img** element are there purely for
+superfluous. The <b>div</b> and the <b>img</b> element are there purely for
 the slideshow effect. Instead of hard-coding these elements into the
 document, it makes sense to use JavaScript to generate them. Let's do
-that in **prepareSlideshow.js**.
+that in <b>prepareSlideshow.js</b>.
 
 First, create the div element:
 
@@ -1871,7 +1866,7 @@ var slideshow = document.createElement(&quot;div&quot;);
 slideshow.setAttribute(&quot;id&quot;,&quot;slideshow&quot;);
 </pre>
 
-Next, create the **img** element:
+Next, create the <b>img</b> element:
 
 <pre>
 var preview = document.createElement(&quot;img&quot;);
@@ -1880,14 +1875,14 @@ preview.setAttribute(&quot;alt&quot;,&quot;building blocks of web design&quot;);
 preview.setAttribute(&quot;id&quot;,&quot;preview&quot;);
 </pre>
 
-Place the **img** inside the **div**:
+Place the <b>img</b> inside the <b>div</b>:
 
 <pre>
 slideshow.appendChild(preview);
 </pre>
 
 Finally, we want these newly created elements to appear directly after
-the list of links. For this, we'll use the **insertAfter** function from
+the list of links. For this, we'll use the <b>insertAfter</b> function from
 Chapter 7:
 
 <pre>
@@ -1895,7 +1890,7 @@ var list = document.getElementById(&quot;linklist&quot;);
 insertAfter(slideshow,list);
 </pre>
 
-The finished **prepareSlideshow** function looks like this:
+The finished <b>prepareSlideshow</b> function looks like this:
 
 <pre>
 function prepareSlideshow() {
@@ -1960,8 +1955,8 @@ file.
 &lt;/html&gt;
 </pre>
 
-Write the **insertAfter** function to a file called **insertAfter.js**
-and place it in the **scripts** folder:
+Write the <b>insertAfter</b> function to a file called <b>insertAfter.js</b>
+and place it in the <b>scripts</b> folder:
 
 <pre>
 function insertAfter(newElement,targetElement) {
@@ -1974,8 +1969,8 @@ parent.insertBefore(newElement,targetElement.nextSibling);
 }
 </pre>
 
-The other file we need to update is the style sheet, **layout.css**.
-Remove this line from **prepareSlideshow.js**:
+The other file we need to update is the style sheet, <b>layout.css</b>.
+Remove this line from <b>prepareSlideshow.js</b>:
 
 <pre>
 preview.style.position = &quot;absolute&quot;;
