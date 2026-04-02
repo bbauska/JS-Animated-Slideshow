@@ -9,6 +9,7 @@
 <h2>Module 1: Introduction to JavaScript Animated Slideshow</h2>
 
 <h2>Module 2: DOM Manipulation and Event Handling</h2>
+
 <h6>13 lessons, 3 readings</h6>
 
 <ol>
@@ -29,8 +30,8 @@
 
 <h2>Module 3:</h2>
 
-This module is designed to provide learners with a comprehensive
-understanding of advanced JavaScript techniques and the jQuery library.
+<p>This module is designed to provide learners with a comprehensive
+understanding of advanced JavaScript techniques and the jQuery library.</p>
 
 <h2>1.1.1. Syllabus</h2>
 
@@ -42,94 +43,75 @@ understanding of advanced JavaScript techniques and the jQuery library.
 
 <h3>Syllabus</h3>
 
-<b>Fundamentals of Web Development</b>
+<h4>Fundamentals of Web Development</h4>
 
 <b>Instructor</b>
 
-Daniel Krieglstein, Adjunct Instructor, Illinois Institute of Technology
+<p>Daniel Krieglstein, Adjunct Instructor, Illinois Institute of Technology</p>
 
 <a href="https://www.iit.edu/directory/people/daniel-krieglstein" target="_blank" rel="noopener noreferrer">
 Daniel, Krieglstein&#124; Illinois Institute of Technology (iit.edu)</a>
 
-<b>Course Description</b>
+<h4><b>Course Description</b></h4>
 
-This course covers the creation of Web pages and sites using HTML, CSS,
+<p>This course covers the creation of Web pages and sites using HTML, CSS,
 Javascript, jQuery, and graphical applications as well as the client and
-server architecture of the Internet and related web technologies.
+server architecture of the Internet and related web technologies.</p>
 
-<b>Course Outcomes</b>
+<h4>Course Outcomes</h4>
 
-Upon successful completion of this course, you will be able to:
+<p>Upon successful completion of this course, you will be able to:</p>
 
--   Explain the client and server architecture of both the internet and
-    related web technologies.
-
--   Use a basic text editor and other software tools to create web pages
-    written in HTML, CSS, JavaScript, and jQuery.
-
--   Deploy web pages to a GitHub using version control and GitHub
-    Desktop.
-
--   Understand the history and track the ongoing development of web
-    standard specifications from the W3C, ISO, IETF, and other
-    specifications-issuing groups.
-
--   Research and argue for methods of web development that keep
-    structure in HTML, design entirely in CSS, and progressively
-    enhanced behavior in JavaScript.
-
--   Engage in agile, iterative web development, supported by version
-    control.
-
--   Write useful, descriptive messages attached to granular commits in a
-    version control.
+<ul>
+  <li>Explain the client and server architecture of both the internet and related web technologies.</li>
+  <li>Use a basic text editor and other software tools to create web pages written in HTML, CSS, 
+    JavaScript, and jQuery.</li>
+  <li>Deploy web pages to a GitHub using version control and GitHub Desktop.</li>
+  <li>Understand the history and track the ongoing development of web standard specifications from the 
+    W3C, ISO, IETF, and other specifications-issuing groups.</li>
+  <li>Research and argue for methods of web development that keep structure in HTML, design entirely in 
+    CSS, and progressively enhanced behavior in JavaScript.</li>
+  <li>Engage in agile, iterative web development, supported by version control.</li>
+  <li>Write useful, descriptive messages attached to granular commits in a version control.</li>
+</ul>
 
 <b>Course Materials</b>
 
-The link to reading materials and resources to learn on the topics can
+<p>The link to reading materials and resources to learn on the topics can
 be found in each week's learning module. All materials are available
 online for free, no required resources need to be purchased. There is no
 required textbook to supplement the course materials. Note: Be aware
-that some resources may open in a new tab.
+that some resources may open in a new tab.</p>
 
-<b>Software Requirements:</b>
+<h4>Software Requirements:</h4>
 
--   An email account. 
-
--   A GitHub account. 
-
--   A personal computer with the following software installed: 
-
--   A plain-text code-editor capable of syntax highlighting.
+<ul>
+  <li>An email account.</li>
+  <li>A GitHub account.</li>
+  <li>A personal computer with the following software installed:</li>
+  <li>A plain-text code-editor capable of syntax highlighting.
     Recommended: Notepad++ (Windows), TextWrangler (mac), or Sublime
-    Text (multi-platform). 
+    Text (multi-platform).</li>
+  <li>GitHub Desktop (or Git if you are already proficient).</li>
+  <li>Image-editing software (such as the free and open-source GIMP)</li>
+  <li>At least three different browsers (e.g., Chrome, Opera, Firefox, and/or Edge)</li>
+</ul>
 
--   GitHub Desktop (or Git if you are already proficient). 
+<h4>Course Outline</h4>
 
--   Image-editing software (such as the free and open-source GIMP) 
-
--   At least three different browsers (e.g., Chrome, Opera, Firefox,
-    and/or Edge)
-
-<b>Course Outline</b>
-
-The course consists of 8 modules that focus on the following key areas:
+<p>The course consists of 8 modules that focus on the following key areas:</p>
 
 <h2>Module 1: Internet Structures and an Introduction to HTML</h2>
 
-<b>Key concepts</b>
-
--   History of the Web
-
--   The Tools of Internet Publishing
-
--   Browsers and Web Addresses
-
--   HTTP Requests
-
--   Meet Our Three Languages
-
--   The Basics of HTML
+<h4>Key concepts</h4>
+<ul>
+  <li>History of the Web</li>
+  <li>The Tools of Internet Publishing</li>
+  <li>Browsers and Web Addresses</li>
+  <li>HTTP Requests</li>
+  <li>Meet Our Three Languages</li>
+  <li>The Basics of HTML</li>
+</ul>
 
 <h4>Readings</h4>
 
@@ -143,19 +125,16 @@ The course consists of 8 modules that focus on the following key areas:
 
 <h2>Module 2: HTML</h2>
 
-<b>Key concepts</b>
-
--   HTML Elements (Inline vs. Box), and HTML Lists
-
--   UTF8 Characters
-
--   HTML Links and Images
-
--   HTML Tables
-
+<h4>Key concepts</h4>
+<ul>
+  <li>HTML Elements (Inline vs. Box), and HTML Lists</li>
+  <li>UTF8 Characters</li>
+  <li>HTML Links and Images</li>
+  <li>HTML Tables</li>
+</ul>
 <h2>Module 3: HTML Forms</h2>
 
-<b>Key concepts</b>
+<h4>Key concepts</h4>
 
 -   Website Navigation (Simple HTML)
 
@@ -165,7 +144,7 @@ The course consists of 8 modules that focus on the following key areas:
 
 <h2>Module 4: Introduction to CSS</h2>
 
-<b>Key concepts</b>
+<h4>Key concepts</h4>
 
 -   How CSS Talks to HTML
 
@@ -179,7 +158,7 @@ The course consists of 8 modules that focus on the following key areas:
 
 <h2>Module 5: CSS Floats and Positions</h2>
 
-<b>Key concepts</b>
+<h4>Key concepts</h4>
 
 -   CSS Fonts
 
@@ -193,7 +172,7 @@ The course consists of 8 modules that focus on the following key areas:
 
 <h2>Module 6: Website Layouts and Design</h2>
 
-<b>Key concepts</b>
+<h4>Key concepts</h4>
 
 -   Standard Website Layouts
 
@@ -207,7 +186,7 @@ The course consists of 8 modules that focus on the following key areas:
 
 <h2>Module 7: Introduction to Javascript</h2>
 
-<b>Key concepts</b>
+<h4>Key concepts</h4>
 
 -   The Basics of JavaScript (JS)
 
@@ -220,7 +199,7 @@ The course consists of 8 modules that focus on the following key areas:
 
 <h2>Module 8: JQuery and Frameworks</h2>
 
-<b>Key concepts</b>
+<h4>Key concepts</h4>
 
 -   How-To: JavaScript Grab Objects and Change HTML
 
@@ -236,8 +215,7 @@ End syllabus. Begin Course:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>1.1 Course Introduction: JS Animated Slideshow</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Animation basics
+<h4>Animation basics</h4>
 
 The previous chapter introduced the DOM's ability to update the styles
 attached to a document. Using JavaScript to add presentational
@@ -252,7 +230,7 @@ support without vendor-specific prefixes is minimal. JavaScript, on the
 other hand, allows you to execute functions at set intervals. This means
 that you can alter an element's style with the passage of time.
 
-Position
+<h4>Position</h4>
 
 An element's position in the browser window is presentational
 information. As such, it is usually added using CSS. Here's an example
@@ -305,9 +283,7 @@ It's a good idea to use either top or bottom, but not both.
 Likewise with left and right. Positioning an element in the document is
 relatively straightforward. Say you had an element like this:
 
-<pre>
-&lt;p id=&quot;message&quot;&gt;Whee!&lt;/p&gt;
-</pre>
+<pre>&lt;p id=&quot;message&quot;&gt;Whee!&lt;/p&gt;</pre>
 
 You could set the message element's position in JavaScript with a
 function like this:
@@ -327,9 +303,7 @@ Calling the <b>positionMessage</b> function when the page loads will
 position the paragraph 50 pixels from the left and 100 pixels from the
 top of the browser window:
 
-<pre>
-window.onload = positionMessage;
-</pre>
+<pre>window.onload = positionMessage;</pre>
 
 Better yet, use the <b>addLoadEvent</b> function:
 
@@ -376,8 +350,7 @@ addLoadEvent(moveMessage);
 
 Now the element's position has been changed.
 
-![](./myImages/media/image2.png){width="4.0in"
-height="2.843597987751531in"}
+![](./myImages/media/image2.png){width="4.0in" height="2.843597987751531in"}
 
 The change in position is immediate. This isn't true animation.
 Animation involves changing an element's position over time.
@@ -387,7 +360,7 @@ Functions are executed one after another without any noticeable pause.
 To create animation, you need to create delays, which is what we will
 look at next.
 
-Time
+<h4>Time</h4>
 
 The JavaScript function <b>setTimeout</b> allows you to execute a function
 after a specified amount of time has elapsed. It takes two arguments.
@@ -395,25 +368,19 @@ The first argument is a string containing the function you want to
 execute. The second argument is the number of milliseconds that will
 elapse before the first argument is executed.
 
-<pre>
-setTimeout(&quot;function&quot;,interval)
-</pre>
+<pre>setTimeout(&quot;function&quot;,interval)</pre>
 
 It's a good idea to always assign the result of this function to a
 variable:
 
-<pre>
-variable = setTimeout(&quot;function&quot;,interval)
-</pre>
+<pre>variable = setTimeout(&quot;function&quot;,interval)</pre>
 
 You'll need to do this if you want to cancel the action that has been
 queued up. You can cancel a pending action using a function called
 <b>clearTimeout</b>. This function takes one argument, which is a variable
 that has been assigned to the result of a <b>setTimeout</b> function:
 
-<pre>
-clearTimeout(variable)
-</pre>
+<pre>clearTimeout(variable)</pre>
 
 Let's update the <b>positionMessage</b> function so that it calls
 moveMessage after 5 seconds (5,000 milliseconds):
@@ -432,9 +399,7 @@ function positionMessage() {
 
 The <b>positionMessage</b> function is called when the page loads:
 
-<pre>
-addLoadEvent(positionMessage);
-</pre>
+<pre>addLoadEvent(positionMessage);</pre>
 
 At first, the message appears at its specified coordinates. After five
 seconds, the message jumps 150 pixels to the right.
@@ -442,16 +407,14 @@ seconds, the message jumps 150 pixels to the right.
 If you want to cancel that action any time before the five seconds
 elapse, you could do so with this statement:
 
-<pre>
-clearTimeout(movement);
-</pre>
+<pre>clearTimeout(movement);</pre>
 
 The movement variable refers to the <b>setTimeout</b> function defined in
 <b>positionMessage</b>. It's a global variable; it wasn't declared with the
 var keyword. This means the action can be canceled outside the
 <b>positionMessage</b> function.
 
-Incremental movement
+<h4>Incremental movement</h4>
 
 Moving an element by 150 pixels after an interval of five seconds is a
 sort of animation, albeit a very primitive one. Effective animation uses
@@ -491,15 +454,11 @@ The JavaScript function <b>parseInt</b> can extract numeric information
 from a string. If you pass it a string that begins with a number, it
 will return the number:
 
-<pre>
-parseInt(string)
-</pre>
+<pre>parseInt(string)</pre>
 
 Here's an example:
 
-<pre>
-parseInt(&quot;39 steps&quot;);
-</pre>
+<pre>parseInt(&quot;39 steps&quot;);</pre>
 
 That will return the number 39.
 
@@ -507,9 +466,7 @@ The <b>parseInt</b> function will return whole numbers (integers). If you
 need to extract numbers with decimal places (floating-point numbers),
 there is a corresponding <b>parseFloat</b> function:
 
-<pre>
-parseFloat(string)
-</pre>
+<pre>parseFloat(string)</pre>
 
 We're dealing with integers in the <b>moveMessage</b> function, so we'll
 use <b>parseInt</b>:
@@ -593,9 +550,7 @@ Finally, we want to repeat the whole function afresh after a slight
 pause. We'll make the pause one hundredth of a second, which is ten
 milliseconds:
 
-<pre>
-movement = setTimeout(&quot;moveMessage()&quot;,10);
-</pre>
+<pre>movement = setTimeout(&quot;moveMessage()&quot;,10);</pre>
 
 The finished moveMessage function looks like this:
 
@@ -633,7 +588,7 @@ stops. That's animation. It's pretty pointless, but it's animation
 nonetheless. We will be applying the same principles to something much
 more useful later in this chapter.
 
-Abstraction
+<h4>Abstraction</h4>
 
 As it stands, the <b>moveMessage</b> function accomplishes a very specific
 task. It moves a specific element to a specific place, pausing for a
@@ -673,7 +628,7 @@ If all of those things were variables, the function would be a lot more
 flexible. By abstracting the <b>moveMessage</b> function, you can create
 something more portable and reusable.
 
-Creating the moveElement function
+<h4>Creating the moveElement function</h4>
 
 Call your new function moveElement. Unlike <b>moveMessage</b>, this
 function will take a number of arguments.
@@ -700,9 +655,7 @@ These arguments should all have descriptive names:
 
 Begin the <b>moveElement</b> function with these arguments:
 
-<pre>
-function moveElement(elementID,final_x,final_y,interval) {
-</pre>
+<pre>function moveElement(elementID,final_x,final_y,interval) {</pre>
 
 Substitute these for the values that were previously hard-coded into
 <b>moveMessage</b>. The <b>moveMessage</b> function began with these lines:
@@ -796,8 +749,7 @@ if (ypos &gt; final_y) {
 The next step remains the same. Update the left and top style properties
 of the element <b>elem</b>.
 
-Assign the values of <b>xpos</b> and <b>ypos</b> with the string &quot;px&quot;
-attached:
+Assign the values of <b>xpos</b> and <b>ypos</b> with the string &quot;px&quot; attached:
 
 <pre>
 elem.style.left = xpos + &quot;px&quot;;
@@ -808,18 +760,14 @@ Finally, we want to call the function again after a suitable interval.
 In <b>moveMessage</b>, this was quite straightforward. The <b>moveMessage</b>
 function is called after ten milliseconds:
 
-<pre>
-movement = setTimeout(&quot;moveMessage()&quot;,10);
-</pre>
+<pre>movement = setTimeout(&quot;moveMessage()&quot;,10);</pre>
 
 In <b>moveElement</b>, it gets a little trickier. As well as calling the
 function again, we need to pass it the same arguments: <b>elementID</b>,
 <b>final_x</b>, <b>final_y</b>, and <b>interval</b>. The whole thing needs to be
 contained as a string:
 
-<pre>
-&quot;moveElement(&#39;&quot;+elementID+&quot;&#39;,&quot;+final_x+&quot;,&quot;+final_y+&quot;,&quot;+interval+&quot;)&quot;
-</pre>
+<pre>&quot;moveElement(&#39;&quot;+elementID+&quot;&#39;,&quot;+final_x+&quot;,&quot;+final_y+&quot;,&quot;+interval+&quot;)&quot;</pre>
 
 That's a lot of concatenating! Rather than inserting that long string
 directly into the <b>setTimeout</b> function, assign the string to a
@@ -836,45 +784,41 @@ before the first argument is called. This used to be hard-coded as ten
 milliseconds. Now it's whatever value is contained by the variable
 interval:
 
-<pre>
-movement = setTimeout(repeat,interval);
-</pre>
+<pre>movement = setTimeout(repeat,interval);</pre>
 
-Close the function with a curly brace:
+<h4>Close the function with a curly brace:</h4>
 
-<pre>
-<b>}</b>
-</pre>
+<pre><b>}</b></pre>
 
 The finished moveElement function looks like this:
 
 <pre>
 function moveElement(elementID,final_x,final_y,interval) {
-if (!document.getElementById) return false;
-if (!document.getElementById(elementID)) return false;
-var elem = document.getElementById(elementID);
-var xpos = parseInt(elem.style.left);
-var ypos = parseInt(elem.style.top);
-if (xpos == final_x && ypos == final_y) {
-  return true;
-}
-if (xpos &lt; final_x) {
-  xpos++;
-}
-if (xpos &gt; final_x) {
-  xpos&#45;-;
-}
-if (ypos &lt; final_y) {
-  ypos++;
-}
-if (ypos &gt; final_y) {
-  ypos&#45;-;
-}
-elem.style.left = xpos + &quot;px&quot;;
-elem.style.top = ypos + &quot;px&quot;;
-var repeat =
-&quot;moveElement(&#39;&quot;+elementID+&quot;&#39;,&quot;+final_x+&quot;,&quot;+final_y+&quot;,&quot;+interval+&quot;)&quot;;
-movement = setTimeout(repeat,interval);
+  if (!document.getElementById) return false;
+  if (!document.getElementById(elementID)) return false;
+  var elem = document.getElementById(elementID);
+  var xpos = parseInt(elem.style.left);
+  var ypos = parseInt(elem.style.top);
+  if (xpos == final_x && ypos == final_y) {
+    return true;
+  }
+  if (xpos &lt; final_x) {
+    xpos++;
+  }
+  if (xpos &gt; final_x) {
+    xpos&#45;-;
+  }
+  if (ypos &lt; final_y) {
+    ypos++;
+  }
+  if (ypos &gt; final_y) {
+    ypos&#45;-;
+  }
+  elem.style.left = xpos + &quot;px&quot;;
+  elem.style.top = ypos + &quot;px&quot;;
+  var repeat =
+  &quot;moveElement(&#39;&quot;+elementID+&quot;&#39;,&quot;+final_x+&quot;,&quot;+final_y+&quot;,&quot;+interval+&quot;)&quot;;
+  movement = setTimeout(repeat,interval);
 }
 </pre>
 
@@ -882,7 +826,7 @@ Save the <b>moveElement</b> function to a file called <b>moveElement.js</b>.
 Place this file in a folder called <b>scripts</b>, along with that old
 workhorse, <b>addLoadEvent.js</b>.
 
-Using the moveElement function
+<h4>Using the moveElement function</h4>
 
 Let's take this function for a test drive.
 
@@ -893,11 +837,11 @@ Start by re-creating the previous example. Create a document called
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot; /&gt;
-&lt;title&gt;Message&lt;/title&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;title&gt;Message&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;
-&lt;p id=&quot;message&quot;&gt;Whee!&lt;/p&gt;
+  &lt;p id=&quot;message&quot;&gt;Whee!&lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </pre>
@@ -908,13 +852,13 @@ JavaScript file called <b>positionMessage.js</b>. At the end of the
 
 <pre>
 function positionMessage() {
-if (!document.getElementById) return false;
-if (!document.getElementById(&quot;message&quot;)) return false;
-var elem = document.getElementById(&quot;message&quot;);
-elem.style.position = &quot;absolute&quot;;
-elem.style.left = &quot;50px&quot;;
-elem.style.top = &quot;100px&quot;;
-moveElement(&quot;message&quot;,200,100,10);
+  if (!document.getElementById) return false;
+  if (!document.getElementById(&quot;message&quot;)) return false;
+  var elem = document.getElementById(&quot;message&quot;);
+  elem.style.position = &quot;absolute&quot;;
+  elem.style.left = &quot;50px&quot;;
+  elem.style.top = &quot;100px&quot;;
+  moveElement(&quot;message&quot;,200,100,10);
 }
 addLoadEvent(positionMessage);
 </pre>
@@ -931,14 +875,14 @@ from <b>message.html</b> using <b>&lt;script&gt;</b> tags:
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot; /&gt;
-&lt;title&gt;Message&lt;/title&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;title&gt;Message&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;
-&lt;p id=&quot;message&quot;&gt;Whee!&lt;/p&gt;
-&lt;script src=&quot;scripts/addLoadEvent.js&quot;&gt;&lt;/script&gt;
-&lt;script src=&quot;scripts/positionMessage.js&quot;&gt;&lt;/script&gt;
-&lt;script src=&quot;scripts/moveElement.js&quot;&gt;&lt;/script&gt;
+  &lt;p id=&quot;message&quot;&gt;Whee!&lt;/p&gt;
+  &lt;script src=&quot;scripts/addLoadEvent.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;scripts/positionMessage.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;scripts/moveElement.js&quot;&gt;&lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </pre>
@@ -946,7 +890,7 @@ from <b>message.html</b> using <b>&lt;script&gt;</b> tags:
 Load <b>message.html</b> in a web browser to see the animation in action.
 The element moves horizontally across the screen.
 
-![](./myImages/media/image3.png){width="4.0in" height="2.164656605424322in"}
+![](./images/image003.png){width="4.0in" height="2.164656605424322in"}
 
 So far, so good. The <b>moveElement</b> function is working exactly like
 the <b>moveMessage</b> function. You abstracted the function so that you
@@ -976,7 +920,7 @@ addLoadEvent(positionMessage);
 Refresh <b>message.html</b> in a web browser to see the change. The element
 now moves diagonally and more slowly.
 
-![](./myImages/media/image4.png){width="4.0in" height="2.8571423884514435in"}
+![](./images/image004.png){width="4.0in" height="2.8571423884514435in"}
 
 The other argument that you can change in <b>moveElement</b> is the value
 of <b>elementID</b>:
@@ -1029,14 +973,14 @@ addLoadEvent(positionMessage);
 Reload <b>message.html</b> to see the new animation. Both elements move in
 different directions at the same time.
 
-![](./myImages/media/image5.png){width="4.0in" height="2.8571423884514435in"}
+![](./images/image005.png){width="4.0in" height="2.8571423884514435in"}
 
 The <b>moveElement</b> function is doing all the work in both cases. By
 simply changing the arguments that you send to the function, you can
 reuse it as often as you like. This is the great advantage of using
 arguments instead of hard-coding values.
 
-The situation
+<h4>The situation</h4>
 
 We have a web page that contains a list of links. When the user hovers
 over one of these links, we want to provide some kind of sneak preview
@@ -1048,17 +992,17 @@ The document is called <b>list.html</b>. Here's the markup:
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot; /&gt;
-&lt;title&gt;Web Design&lt;/title&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;title&gt;Web Design&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;
-&lt;h1&gt;Web Design&lt;/h1&gt;
-&lt;p&gt;These are the things you should know.&lt;/p&gt;
-&lt;ol id=&quot;linklist&quot;&gt;
-&lt;li&gt;&lt;a href=&quot;structure.html&quot;&gt;Structure&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;presentation.html&quot;&gt;Presentation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;behavior.html&quot;&gt;Behavior&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
+  &lt;h1&gt;Web Design&lt;/h1&gt;
+  &lt;p&gt;These are the things you should know.&lt;/p&gt;
+  &lt;ol id=&quot;linklist&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;structure.html&quot;&gt;Structure&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;presentation.html&quot;&gt;Presentation&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;behavior.html&quot;&gt;Behavior&lt;/a&gt;&lt;/li&gt;
+  &lt;/ol&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </pre>
@@ -1067,7 +1011,7 @@ Each link leads to a page covering a particular aspect of web design.
 The text within each link succinctly describes the content of the linked
 page.
 
-![](./myImages/media/image6.png){width="4.0in" height="2.267936351706037in"}
+![](./images/image006.png){width="4.0in" height="2.267936351706037in"}
 
 As it stands, this document is perfectly fine. That said, showing a
 visual clue about the destination documents would be a nice touch.
@@ -1082,7 +1026,7 @@ hovers over a link, the new image would be loaded. Even on a fast
 connection, this will take a little time. We want a more immediate
 response.
 
-The solution
+<h4>The solution</h4>
 
 If we use a different image for the visual preview of each link, there
 will be delays in swapping out the images. Besides, simply swapping out
@@ -1099,7 +1043,7 @@ Here's what we'll do:
 
 I've made a composite image of the three previews plus one default view.
 
-![](./myImages/media/image7.png){width="4.0in" height="1.0103707349081366in"}
+![](.images/image007.png){width="4.0in" height="1.0103707349081366in"}
 
 The image is called topics.gif. It is 400 pixels wide and 100 pixels
 tall. We'll insert the topics.gif image into list.html, giving it an id
@@ -1109,32 +1053,32 @@ of &quot;preview&quot;:
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot; /&gt;
-&lt;title&gt;Web Design&lt;/title&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;title&gt;Web Design&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;
-&lt;h1&gt;Web Design&lt;/h1&gt;
-&lt;p&gt;These are the things you should know.&lt;/p&gt;
-&lt;ol id=&quot;linklist&quot;&gt;
-&lt;li&gt;&lt;a href=&quot;structure.html&quot;&gt;Structure&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;presentation.html&quot;&gt;Presentation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;behavior.html&quot;&gt;Behavior&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;img src=&quot;images/topics.gif&quot; alt=&quot;building blocks of web design&quot;
-id=&quot;preview&quot; /&gt;
+  &lt;h1&gt;Web Design&lt;/h1&gt;
+  &lt;p&gt;These are the things you should know.&lt;/p&gt;
+  &lt;ol id=&quot;linklist&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;structure.html&quot;&gt;Structure&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;presentation.html&quot;&gt;Presentation&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;behavior.html&quot;&gt;Behavior&lt;/a&gt;&lt;/li&gt;
+  &lt;/ol&gt;
+  &lt;img src=&quot;images/topics.gif&quot; alt=&quot;building blocks of web design&quot;
+  id=&quot;preview&quot; /&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </pre>
 
 The web page now contains the list of links and the composite image.
 
-![](./myImages/media/image8.png){width="4.0in" height="3.1860312773403323in"}
+![](./images/image008.png){width="4.0in" height="3.1860312773403323in"}
 
 Right now, the entire image is visible. We want only a 100-by-100 pixel
 portion to be visible at any one time. We can't do that with JavaScript,
 but we can do it with CSS.
 
-CSS
+<h4>CSS</h4>
 
 The CSS overflow property dictates how content within an element should
 be displayed when the content is larger than its container element. When
@@ -1247,7 +1191,7 @@ over.
 This is a behavioral change and definitely a job for JavaScript and the
 DOM.
 
-JavaScript
+<h4>JavaScript</h4>
 
 We'll use the <b>moveElement</b> function to move the <b>topics.gif</b> image
 around. We'll move the image to the left or to the right, depending on
@@ -1419,7 +1363,7 @@ But something is not quite right. If you move quickly from link to the
 link, the animation becomes confused. There's something wrong with the
 <b>moveElement</b> function.
 
-A question of scope
+<h4>A question of scope</h4>
 
 The animation problem is being caused by a global variable. When we
 abstracted the <b>moveMessage</b> function and turned it into the
@@ -1548,7 +1492,7 @@ a problem. There is no backlog of events being queued up. The animation
 changes direction as you move up and down the list of links. Still, the
 animation is a bit lackluster.
 
-Refining the animation
+<h4>Refining the animation</h4>
 
 The <b>moveElement</b> function moves an element one pixel at a time until
 it reaches the coordinates specified by the <b>final_x</b> and <b>final_y</b>
@@ -1722,7 +1666,7 @@ The markup, the CSS, and the JavaScript all come together to create this
 slideshow effect. Everything is working fine, but there's always room
 for some small tweaks.
 
-Adding a safety check
+<h4>Adding a safety check</h4>
 
 The <b>moveElement</b> function is working really well now. There's just
 one thing that bothers me. There is an assumption being made near the
@@ -1819,7 +1763,7 @@ preview.style.top = &quot;0px&quot;;
 
 While we're at it, let's overhaul the <b>prepareSlideshow</b> function.
 
-Generating markup
+<h4>Generating markup</h4>
 
 The <b>list.html</b> document contains some markup that exists just for the
 JavaScript slideshow:
@@ -1837,14 +1781,14 @@ the slideshow effect. Instead of hard-coding these elements into the
 document, it makes sense to use JavaScript to generate them. Let's do
 that in <b>prepareSlideshow.js</b>.
 
-First, create the div element:
+<h4>First, create the div element:</h4>
 
 <pre>
 var slideshow = document.createElement(&quot;div&quot;);
 slideshow.setAttribute(&quot;id&quot;,&quot;slideshow&quot;);
 </pre>
 
-Next, create the <b>img</b> element:
+<h4>Next, create the <b>img</b> element:</h4>
 
 <pre>
 var preview = document.createElement(&quot;img&quot;);
@@ -1853,7 +1797,7 @@ preview.setAttribute(&quot;alt&quot;,&quot;building blocks of web design&quot;);
 preview.setAttribute(&quot;id&quot;,&quot;preview&quot;);
 </pre>
 
-Place the <b>img</b> inside the <b>div</b>:
+<h4>Place the <b>img</b> inside the <b>div</b>:</h4>
 
 <pre>slideshow.appendChild(preview);</pre>
 
