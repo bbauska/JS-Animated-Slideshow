@@ -49,7 +49,7 @@
 <h6>by Brian Bauska &#64;cellardoors</h6>
 <h5>About this Course</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="#toc">Table of Contents</h2>
+<h2 id="toc">Table of Contents - Animated JavaScript (js-slideshow.bauska.org)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="#ch1">Module 1: Introduction to JavaScript Animated Slideshow</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -73,20 +73,14 @@
   </li>
 </ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="#ch3">Module 3:</h2>
+<h2><a href="#ch3">Module 3: JS Advanced Techniques &amp; jQuery Library</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>This module is designed to provide learners with a comprehensive understanding of advanced 
 JavaScript techniques and the jQuery library.</p>
 <!-- we begin here -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1.1.1">1.1.1. Syllabus</h2>
+<h2><a href="#syllabus">Syllabus</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3>Module 1: Introduction to JavaScript Animated Slideshow</h3>
-
-<h3>Module 2: DOM Manipulation and Event Handling</h3>
-
-<h3>Module 3: Advanced JavaScript Techniques and jQuery</h3>
-
 <h3>Syllabus</h3>
 
 <h4>Fundamentals of Web Development</h4>
@@ -156,8 +150,6 @@ some resources may open in a new tab.</p>
   <li><a href="#ch1-5">Meet Our Three Languages</a></li>
   <li><a href="#ch1-6">The Basics of HTML</a></li>
 </ul>
-<a href="#cha-1"><strong>About W3C and the Web</strong></a>
-<h3 id="cha-1">
 
 <h4>Readings</h4>
 
@@ -171,17 +163,17 @@ some resources may open in a new tab.</p>
   <li><a href="https://web.dev/articles/howbrowserswork">How Browsers Work</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="#ch2">Module 2: HTML</h2>
+<h2><a href="#ch2">Module 2: HTML</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Key concepts</h4>
 <ul>
-  <li>HTML Elements (Inline vs. Box), and HTML Lists</li>
-  <li>UTF8 Characters</li>
-  <li>HTML Links and Images</li>
-  <li>HTML Tables</li>
+  <li><a href="#ch2-1">HTML Elements (Inline vs. Box), and HTML Lists</li>
+  <li><a href="#ch2-2">UTF8 Characters</li>
+  <li><a href="#ch2-3">HTML Links and Images</li>
+  <li><a href="#ch2-4">HTML Tables</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="#ch3">Module 3: HTML Forms</h2>
+<h2><a href="#ch3">Module 3: HTML Forms</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Key concepts</h4>
 <ul>
@@ -190,7 +182,7 @@ some resources may open in a new tab.</p>
   <li>Page Layout: Resumes</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="#ch4">Module 4: Introduction to CSS</h2>
+<h2><a href="#ch4">Module 4: Introduction to CSS</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Key concepts</h4>
 <ul>
@@ -201,7 +193,7 @@ some resources may open in a new tab.</p>
   <li>CSS Resets</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="#ch5">Module 5: CSS Floats and Positions</h2>
+<h2><a href="#ch5">Module 5: CSS Floats and Positions</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Key concepts</h4>
 <ul>
@@ -212,7 +204,7 @@ some resources may open in a new tab.</p>
   <li>Centered Navigation</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="#ch6">Module 6: Website Layouts and Design</h2>
+<h2><a href="#ch6">Module 6: Website Layouts and Design</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Key concepts</h4>
 <ul>
@@ -223,7 +215,7 @@ some resources may open in a new tab.</p>
   <li>Full-site Demonstration</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="#ch7">Module 7: Introduction to Javascript</h2>
+<h2><a href="#ch7">Module 7: Introduction to Javascript</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Key concepts</h4>
 <ul>
@@ -233,7 +225,7 @@ some resources may open in a new tab.</p>
   <li>JavaScript Objectives, Event Handling, and DOM (Document Object Model)</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="#ch8">Module 8: JQuery and Frameworks</h2>
+<h2><a href="#ch8">Module 8: JQuery and Frameworks</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Key concepts</h4>
 <ul>
@@ -243,11 +235,11 @@ some resources may open in a new tab.</p>
   <li>What This All Means for Using Website Frameworks</li>
 </ul>
 
-End syllabus. Begin Course:
+<p>End syllabus. Begin Course:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2>Module 1:</h2>
+<h2 id="ch1">Module 1:</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3>1.1 Course Introduction: JS Animated Slideshow</h3>
+<h3 id="ch1-1">1.1 Course Introduction: JS Animated Slideshow</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Animation basics</h4>
 
@@ -275,9 +267,8 @@ element {
 }
 </pre>
 
-That will position the element 100 pixels from the left of the browser
-window and 50 pixels from the top. Here's the DOM equivalent of the same
-information:
+That will position the element 100 pixels from the left of the browser window and 50 pixels from 
+the top. Here's the DOM equivalent of the same information:
 
 <pre>
 element.style.position = &quot;absolute&quot;;
@@ -288,21 +279,18 @@ element.style.top = &quot;50px&quot;;
 <p>Animation is the perfect example of this kind of change. In a nutshell, animation involves changing 
 an element's position over time.</p>
 
-<p>Valid values for the position property are &quot;static&quot;, &quot;fixed&quot;,
-&quot;relative&quot;, and &quot;absolute&quot;. Elements have a position value of
-&quot;static&quot; by default, which simply means that they appear one after the
-other in the same sequence as they occur in the markup. The &quot;relative&quot;
-value is similar. The difference is that relatively positioned elements
-can be taken out of the regular flow of the document by applying the
-float property.</p>
+<p>Valid values for the position property are &quot;static&quot;, &quot;fixed&quot;, &quot;relative&quot;, 
+and &quot;absolute&quot;. Elements have a position value of &quot;static&quot; by default, which simply 
+means that they appear one after the other in the same sequence as they occur in the markup. The 
+&quot;relative&quot; value is similar. The difference is that relatively positioned elements can be taken 
+out of the regular flow of the document by applying the float property.</p>
 
-<p>By applying a value of &quot;absolute&quot; to an element's position, you can
-place the element wherever you want in relation to its container. The
-container is either the document itself or a parent element with a
-position of &quot;fixed&quot; or &quot;absolute&quot;. It doesn't matter where the
-element appears in the original markup, because its position will be
-determined by properties like top, left, right, and bottom. You can set
-any of those properties using pixels or percentages.</p>
+<p>By applying a value of <mark>&quot;absolute&quot;</mark> to an element's position, you can place 
+the element wherever you want in relation to its container. The container is either the document 
+itself or a parent element with a position of <mark>&quot;fixed&quot;</mark> or <mark>&quot;absolute&quot;</mark>. 
+It doesn't matter where the element appears in the original markup, because its position will be 
+determined by properties like top, left, right, and bottom. You can set any of those properties 
+using pixels or percentages.</p>
 
 <p>Setting an element's top property will place the element a specified distance from the top of 
 the document. An element's bottom property will place it a specified distance from the bottom of 
